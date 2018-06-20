@@ -6,7 +6,6 @@ REST service on the given host and port.
 ## Installation
 
 ```
-pip install gpustat flask
 pip install git+https://github.com/jolibrain/gpustat_server
 ```
 
