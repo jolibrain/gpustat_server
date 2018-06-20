@@ -9,5 +9,6 @@ setup(name="gpustat_server",
       ]},
       license="MIT",
       packages=['gpustat_server'],
-      install_requires=['gpustat', 'flask'],
+      install_requires=['gpustat>=0.4.1', 'flask'],
+      dependency_links=['git+https://github.com/wookayin/gpustat#whl=gpustat']
       )
